@@ -2,7 +2,7 @@
 const { validateBadge } = require('./lib/validator');
 const { convertToBadge } = require('./lib/converter');
 
-const imagePath = 'public/uploads/your_image.png';
+const imagePath = 'publicFiles/uploads/transparent-spider-man.png';
 
 validateBadge(imagePath)
   .then(() => console.log('Badge validation successful!'))
